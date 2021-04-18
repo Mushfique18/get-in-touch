@@ -1,0 +1,59 @@
+body {
+  background-image: url(Image/bg-01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.form {
+  background-color: white;
+  margin: 15px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-elements {
+  padding: 66px 80px 59px 66px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-bottom: 32px;
+}
+
+.form-control {
+  height: 62px;
+  background-color: #f2f2f2;
+  color: gray;
+  font-size: 20px;
+  border: none;
+}
+
+.form-control-meesage {
+  min-height: 162px;
+  background-color: #f2f2f2;
+  color: gray;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  min-width: 150px;
+  height: 62px;
+  font-size: 18px;
+  font-weight: bold;
+  background-image: linear-gradient(to left, #2ac559, #1084b9);
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  left: 40%;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(to left, #1084b9, #2ac559);
+}
